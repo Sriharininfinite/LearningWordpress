@@ -1,7 +1,7 @@
 <?php
-function greet(){
-    echo "<p>Hi my name is john and my favorite color is blue</p>";
+function greet($name,$color){
+    echo "<p>Hi my name is $name and my favorite color is $color</p>";
 }
-greet();
-greet();
+greet('john','blue');
+greet('jane','green');
 ?>
