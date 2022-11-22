@@ -1,6 +1,7 @@
 <?php
-function myFirstFunction(){
-    echo 2+2;
+function greet(){
+    echo "<p>Hi my name is john and my favorite color is blue</p>";
 }
-myFirstFunction();
+greet();
+greet();
 ?>
