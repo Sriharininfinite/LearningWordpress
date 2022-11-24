@@ -45,7 +45,7 @@
         <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
         <?php
           $homepagePosts = new WP_Query(array(
-            'posts_per_page' => 2
+            'posts_per_page' => 1
           ));
 
           while ($homepagePosts->have_posts()) {
@@ -66,7 +66,7 @@
         
         
         
-        <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+        <p class="t-center no-margin"><a href="<?php echo site_url('/blog') ?>" class="btn btn--yellow">View All Blog Posts</a></p>
       </div>
     </div>
   </div>
